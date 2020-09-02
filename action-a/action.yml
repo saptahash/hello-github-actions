@@ -7,9 +7,6 @@ inputs:
                 description: "Who to greet"
                 required: true
                 default: "world"
-runs:
-        using: "docker" 
-        image: "Dockerfile"
 
 branding:
         icon: "mic"
